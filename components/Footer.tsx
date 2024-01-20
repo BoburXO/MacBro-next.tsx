@@ -7,7 +7,7 @@ const Footer = () => {
       <hr />
       <div className="container">
         <ul>
-          <p>Интернет-магазины MacBro.uz. Все права защищены.</p>
+          <p>Интернет-магазины www.brostore.uz Все права защищены.</p>
           <p>
             Developed by{" "}
             <Link target={"_blank"}
