@@ -23,7 +23,7 @@ const Shop = async () => {
       <section>
         <div className="container">
           <div className="parent">
-            {products.slice(0, 60).map((el: any) => {
+            {products.slice(0, 20).map((el: any) => {
               return (
                 <Link href={`/shop/${el._id}`} className="card" key={el._id}>
                   <img src={el.image} alt={el.name} />
